@@ -4,7 +4,7 @@ import jinja2
 import os
 import json
 
-with open('names.json') as namefile:
+with open('cangkems.json') as namefile:
     names =  json.load(namefile) + ['BOSOK', 'GAK DI SEKOLAHIN', 'GEDI', "JELEK", 'KELINDAS TRUCK',
                                     'MEMBLE', 'PORNO', 'MINTA DI INJAK', 'KOYO TELEK',
                                     'MINTA DI POTONG', "DI CIPOK ULAR", 'KEMANA MANA', 'TUKANG GOSIP' ]
