@@ -5,9 +5,9 @@ import os
 import json
 
 with open('names.json') as namefile:
-    names =  json.load(namefile) + ['BRObama', 'BRObadiah', 'BROmaha', "you look BROverworked", 'BROtini',
-                                    'BROzilla', 'BROtylicious', 'BROmageddon', 'BROprah Winfrey',
-                                    'Angelina BROlie', "Shaquille BRO'Neal", 'RonaldinBRO', 'BROhammad Ali' ]
+    names =  json.load(namefile) + ['BOSOK', 'GAK DI SEKOLAHIN', 'GEDI', "JELEK", 'KELINDAS TRUCK',
+                                    'MEMBLE', 'PORNO', 'MINTA DI INJAK', 'KOYO TELEK',
+                                    'MINTA DI POTONG', "DI CIPOK ULAR", 'KEMANA MANA', 'TUKANG GOSIP' ]
 
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
