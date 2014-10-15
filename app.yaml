@@ -1,4 +1,4 @@
-application: whatshouldicallmybro
+application: canke.me
 version: 1-1
 runtime: python27
 api_version: 1
@@ -17,7 +17,7 @@ handlers:
   static_dir: stylesheets
   
 - url: /.*
-  script: whatshouldicallmybro.app
+  script: cangkeme.app
   
 libraries:
 - name: jinja2
