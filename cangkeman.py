@@ -7,7 +7,7 @@ import json
 with open('cangkems.json') as namefile:
     names =  json.load(namefile) + ['BOSOK', 'GAK DI SEKOLAHIN', 'GEDI', "JELEK", 'KELINDAS TRUCK',
                                     'MEMBLE', 'PORNO', 'MINTA DI INJAK', 'KOYO TELEK',
-                                    'MINTA DI POTONG', "DI CIPOK ULAR", 'KEMANA MANA', 'TUKANG GOSIP','JILAT','ISEP' ]
+                                    'MINTA DI POTONG', "DI CIPOK ULAR", 'KEMANA MANA', 'TUKANG GOSIP','MINTA DI JILAT','PENGEN DI ISEP','DI EMUT ALUS','PENGEN DI TARIK','PENGEN TAK OBRAL','MANIS KAYAK BOKONG','BUTUH BELAIAN ALUS' ]
 
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
